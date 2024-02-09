@@ -7,16 +7,16 @@ preserveTaxonomyNames = true
 
 [params]
     # The name to display as main title in the home page
-    mainpagetitle = "6865"
+    mainpagetitle = "Projects, thoughts and other"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "" 
+    mainpagesubtitle = "MacGyverer" 
 
     # The description of your website. It will be displayed in the home page
     mainpagedesc = "Blogs for my adventures"
 
     # The name to display in the copyright section in the footer
-    copyrightname = ""
+    copyrightname = "68656c6c"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
     copyrighturl = ""
