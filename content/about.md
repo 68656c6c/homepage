@@ -1,9 +1,12 @@
 +++
-title = "OrangePi 5 Plus as Proxmox server"
-description = "Low wattage hypervisor at home"
-date = "2024-02-07"
-aliases = ["arm64","proxmox"]
-author = "68"
+title = "68656c6c"
+description = "DevOps Engineer"
+date = "2024-10-19"
+aliases = [""]
+author = "68656c6c"
 +++
 
-This is my orange pi tutorial for running proxmox with u-boot
+Obsessed with open source, technology, selfhosting and self-improvement.
+I strive to improve myself in technology daily, and picking things up along the way.
+
+My hobbies involve 3d printing, drawing, trying to pick up a soldering iron and hopefully soon being able to create my own pcbs and esp32 installations!
