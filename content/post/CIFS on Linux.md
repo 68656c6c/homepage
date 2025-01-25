@@ -6,6 +6,10 @@ tags:
   - technology/cifs
   - technology/smb
 ---
+This is a test of my knowledge and power
+### toehusoeuthaseouhaostnehuaotsnehu
+
+# How to mount a SMB share from Hetzner Storage Box to a Linux VM
 
 ```bash
 sudo apt install cifs-utils
