@@ -2,7 +2,6 @@
 share: true
 title: CIFS on Linux
 date: 2025-01-25
-filename: guide/20230503-cifs_on_linux
 tags:
   - technology/cifs
   - technology/smb
