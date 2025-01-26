@@ -57,7 +57,7 @@ networks:
 
 Get your `CF_API_TOKEN=` from Cloudflare and create a token that only has Edit and Read permissions on the specific zone you would like:
 
-![Pasted image 20250126145627.png](/images/Pasted image 20250126145627.png)
+![Pasted_image_20250126145627.png](/images/Pasted_image_20250126145627.png)
 
 Make sure to add your own app in the `your-app-here` section in the **docker-compose.yml** file.
 
