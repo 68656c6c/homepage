@@ -27,7 +27,7 @@ services:
     build:
       context: .
       dockerfile: Caddy.Dockerfile
-    image: ghcr.io/68656c6c/caddy-cloudflare:latest
+    image: caddy-cloudflare:latest
     restart: unless-stopped
     environment:
       - CF_API_TOKEN=
@@ -66,9 +66,13 @@ name.example.tld {
 }
 ```
 
-And now every time you want to update your new docker container, you just run the command `docker-compose up -d --build` again.
+Replace `name.example.tld` and `service-name:1111` with what you're trying to host.
+I have added `resolvers 1.1.1.1` because of local DNS, the `example.tld` is being used internally and would not resolve the DNS challenge.
+
+If you want to update your new docker container, you just run the command `docker-compose up -d --build` again and it will build it for you.
 
 {{< box important >}}
 **This is possibly outdated**
+
 If you want to improve this and host it on GitHub, a better way is possible with using GitHub runner to build this image and then host the image on your GitHub repo
 {{< /box >}}
