@@ -51,10 +51,17 @@ networks:
     driver: bridge
 ```
 
+{{< box info >}}
+**It's smarter to use docker secrets than the following**
+{{< /box >}}
+
+Get your `CF_API_TOKEN=` from Cloudflare and create a token that only has Edit and Read permissions on the specific zone you would like:
+
+![Pasted image 20250126145627.png](/images/Pasted image 20250126145627.png)
+
 Make sure to add your own app in the `your-app-here` section in the **docker-compose.yml** file.
 
-To build the image, do the following: `docker-compose up -d --build`
-
+Create the following Caddyfile
 ## Caddyfile
 ```yaml
 name.example.tld {
@@ -70,6 +77,8 @@ name.example.tld {
 
 Replace `name.example.tld` and `service-name:1111` with what you're trying to host.
 I have added `resolvers 1.1.1.1` because of local DNS, the `example.tld` is being used internally and would not resolve the DNS challenge.
+
+After that, you build the image, entering the following command: `docker-compose up -d --build` and waiting until the build is complete.
 
 If you want to update your new docker container, you just run the command `docker-compose up -d --build` again and it will build it for you.
 
