@@ -42,7 +42,7 @@ services:
     networks:
       - caddy_network
 
-  test:
+  your-app-here:
     networks:
       - caddy_network
 
@@ -50,6 +50,8 @@ networks:
   caddy_network:
     driver: bridge
 ```
+
+Make sure to add your own app in the `your-app-here` section in the **docker-compose.yml** file.
 
 To build the image, do the following: `docker-compose up -d --build`
 
