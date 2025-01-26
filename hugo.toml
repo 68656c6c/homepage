@@ -4,16 +4,14 @@ title = "Blog"
 theme = "dead-simple"
 enableGitInfo = "true"
 
-[menu]
-  [menu.main]
-    name = "<u>H</u>ome"
-    url = "/"
-    weight = "1"
-
-  [menu.main]
-    name = "<u>T</u>ags"
-    url = "https://68656c6c.com/tags"
-    weight = "3"
+[[menu.main]]
+  name = "<u>H</u>ome"
+  url = "/"
+  weight = "1"
+[[menu.main]]
+  name = "<u>T</u>ags"
+  url = "https://68656c6c.com/tags"
+  weight = "3"
 
 [params]
   description = "Blog"
