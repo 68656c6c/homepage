@@ -24,9 +24,9 @@ And create a `docker-compose.yml` with the following:
 ```yaml
 services:
   caddy:
-	build:
-	  context: .
-	  dockerfile: Caddy.Dockerfile
+    build:
+      context: .
+      dockerfile: Caddy.Dockerfile
     image: ghcr.io/68656c6c/caddy-cloudflare:latest
     restart: unless-stopped
     environment:
@@ -68,7 +68,7 @@ name.example.tld {
 
 And now every time you want to update your new docker container, you just run the command `docker-compose up -d --build` again.
 
-{{ < box important >}}
+{{< box important >}}
 **This is possibly outdated**
 If you want to improve this and host it on GitHub, a better way is possible with using GitHub runner to build this image and then host the image on your GitHub repo
-{{ < /box >}}
+{{< /box >}}
