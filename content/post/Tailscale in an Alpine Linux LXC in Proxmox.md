@@ -5,7 +5,7 @@ date: 2024-03-03
 tags:
   - technology/alpine/tailscale
 ---
-I'll honestly start by saying that a lot of this is generally not supported or recommended, I do it anyway because of the benefits of an LXC.
+I'll honestly start by saying that a lot of this is generally not supported or recommended, I do it anyway because of the benefits of an LXC container.
 
 I shifted away from this strategy a while back, but for anyone looking up how to do this, here's some documentation.
 # Installing Tailscale to Alpine Linux LXC
@@ -39,17 +39,17 @@ rc-service tailscale start
 ```bash
 /etc/init.d/tailscale start
 ```
-
+or
 ```bash
 /usr/sbin/tailscaled --state=/var/lib/tailscale/tailscaled.state --port 41641
 ```
 
-You can then make it available through SSH or even an ACL tag if you have it configured (Which I heavily recommend doing):
+You can then make it available through SSH or even an [ACL](https://tailscale.com/kb/1018/acls) tag if you have it configured (Which I heavily recommend doing):
 
 ```bash
 tailscale up --ssh
 ```
-
+or
 ```bash
 tailscale up --ssh --advertise-tags=tag:
 ```
