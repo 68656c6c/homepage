@@ -24,9 +24,9 @@ And create a `docker-compose.yml` with the following:
 ```yaml
 services:
   caddy:
-	build:
-	  context: .
-	  dockerfile: Caddy.Dockerfile
+    build:
+      context: .
+      dockerfile: Caddy.Dockerfile
     image: ghcr.io/68656c6c/caddy-cloudflare:latest
     restart: unless-stopped
     environment:
