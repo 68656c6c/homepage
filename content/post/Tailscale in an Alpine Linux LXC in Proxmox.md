@@ -30,12 +30,12 @@ lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file
 
 Now you can turn the container back on, and if everything went right you will be able to do the following on Alpine Linux 3.21 & 3.20
 
-# Start rc-service
+## Start Tailscale service
 ```bash
 rc-service tailscale start
 ```
 
-# Alternatives if those don't work 
+### Alternatives start-ups if those don't work 
 ```bash
 /etc/init.d/tailscale start
 ```
@@ -55,7 +55,7 @@ tailscale up --ssh --advertise-tags=tag:
 ```
 
 
-# Multiple serve options
+## Multiple serve options
 
 You can even "reverse proxy" with Tailscale with their serve option.
 
