@@ -6,7 +6,6 @@ tags:
   - technology/cifs
   - technology/smb
 ---
-# How to connect to your Hetzner Storage Box with SMB on ARM Ubuntu 22.04
 
 First you install the CIFS utils.
 ```bash
