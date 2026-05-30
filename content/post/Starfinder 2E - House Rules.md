@@ -11,7 +11,7 @@ Here are the ones we will be using.
 ## First session
 Every session starts off at level 3 when I DM unless otherwise specified, so you can feel like an actual person already. This also means that there are certain items you have to buy, and how much you have.
 
-You start your session with a **FREE** Camping Kit, you can give that to yourself in Pathbuilder 2e by pressing "**Give**" in the **Gear** section of your character sheet, accessing the screen by pressing "**Add Gear**".
+You start your session with a **FREE** ==Camping Kit==, you can give that to yourself in Pathbuilder 2e by pressing "**Give**" in the **Gear** section of your character sheet, accessing the screen by pressing "**Add Gear**".
 
 You are then given 750 credits to spend on your character to finish their build.
 
