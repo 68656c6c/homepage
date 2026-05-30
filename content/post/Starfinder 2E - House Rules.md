@@ -19,11 +19,11 @@ You are then given 750 credits to spend on your character to finish their build.
 ## Ephemeral points
 Each *session* starts with 1 ephemeral point, and you get another ephemeral point in the halfway point of the session.
 
-A fervor point allows you to add bonuses to your dice, if you fail a save, and you want to try and get out of it, you use your fervor.
+A ephemeral point allows you to add bonuses to your dice, if you fail a save, and you want to try and get out of it, you use your ephemeral point.
 
 You have two options to change your roll with ephemeral points.
-1. If the roll is under 10, you gain a +8 to your roll.
-2. If the roll is 10 or above, you gain a +4 to your roll.
+1. If the roll is under `10`, you gain a `+8` to your roll.
+2. If the roll is `10` or above, you gain a `+4` to your roll.
 
 You will have to specify what type of dice you will be rolling, the attack, hit or save.
 
@@ -38,7 +38,7 @@ Usage of hero points can be anything, but each action will have interesting, and
 When you use a hero point on an attack, you automatically crit, and deal maximum critical damage, your attack and damage dice will be maxed out, and any concealment will be foregone if available against the attackee. 
 
 ### Saves
-You ignore anything that's making you save, even in seemingly impossible ways, you manage to blow away an arrow, you scold at a spell and it cowers and moves aside. This is your moment, and you won't have it be taken from you. 
+You ignore anything that's making you save, even in seemingly impossible ways, you manage to blow away an arrow, you scold at a spell and it cowers and moves aside. This is your moment, and you won't have it taken from you. 
 
 ### Skills
 Something requires your attention, you need to perceive something, or do an athletics check, your character is capable of things they didn't know about, and overrides any limitations on even things like proficiency, a distance you need to jump but physically can't? Seemingly you can now. 
