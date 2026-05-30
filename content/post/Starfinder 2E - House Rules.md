@@ -19,7 +19,7 @@ You are then given 750 credits to spend on your character to finish their build.
 ## Ephemeral points
 Each *session* starts with 1 ephemeral point, and you get another ephemeral point in the halfway point of the session.
 
-A fervor point allows you to add bonuses to your dice, if you fail a save, and you want to try and get out of it, you use your fervor.
+A ephemeral point allows you to add bonuses to your dice, if you fail a save, and you want to try and get out of it, you use your ephemeral point.
 
 You have two options to change your roll with ephemeral points.
 1. If the roll is under `10`, you gain a `+8` to your roll.
