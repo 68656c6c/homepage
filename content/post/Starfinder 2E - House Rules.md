@@ -41,4 +41,4 @@ When you use a hero point on an attack, you automatically crit, and deal maximum
 You ignore anything that's making you save, even in seemingly impossible ways, you manage to blow away an arrow, you scold at a spell and it cowers and moves aside. This is your moment, and you won't have it taken from you. 
 
 ### Skills
-Something requires your attention, you need to perceive something, or do an athletics check, your character is capable of things they didn't know about, and overrides any limitations on even things like proficiency, a distance you need to jump but physically can't? Seemingly you can now. 
+Something requires your attention, you need to perceive something, or do an athletics check, your character is capable of things they didn't know about, and overrides any limitations on even things like proficiency, a distance you need to jump but physically can't? Seemingly you can now.
