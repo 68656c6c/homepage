@@ -63,3 +63,5 @@ This does not mean that there won't be enemies that are especially vulnerable to
 Whatever the bulk cost is, is how much you have to pay for 10 arrows of the precious material.
 
 Cold Iron (Low-Grade) for example, is `+4 gp` per Bulk, that is how much it costs for 10 arrows.
+
+This is a test
