@@ -7,11 +7,11 @@ tags:
 ---
 Navigate to https://pathbuilder2e.com/ and create a new character on **STARBUILDER 2E**
 
-![Pasted image 20260531025544.png](/images/Pasted image 20260531025544.png)
+![Pasted_image_20260531025544.png](/images/Pasted_image_20260531025544.png)
 
 Do not add anything else, but the current selection should look like this:
 
-![Pasted image 20260531025558.png](/images/Pasted image 20260531025558.png)
+![Pasted_image_20260531025558.png](/images/Pasted_image_20260531025558.png)
 Press **Get Started** and continue.
 
 You will be met with A LOT of information, what's most important is that you understand that this is a very interactive sheet, so you can create your character while following the rules of the system, and without having to know anything.
